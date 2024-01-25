@@ -1,0 +1,65 @@
+.offers {
+  width: 100%;
+}
+.offer-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.offers-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.offers-title a {
+  color: #f66d00;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 30px 0 10px 0;
+}
+.offer-grid-item {
+  height: 373px;
+  max-width: 224px;
+  border: 1px solid rgba(196, 196, 196, 0.76);
+  border-radius: 12px;
+  text-decoration: none;
+  color: black;
+}
+.offer-grid-banner img {
+  border-radius: 12px;
+}
+.offer-grid-item-box {
+  padding: 24px 12px;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.offer-image {
+  max-width: 182px;
+}
+.offer-price {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 82, 19);
+}
+.price-in-tl {
+  margin-left: 6px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.offer-title {
+  font-size: 12px;
+  text-align: center;
+  max-width: 189px;
+  padding: 0  12px;
+}

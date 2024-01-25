@@ -1,0 +1,117 @@
+.cart-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-header-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  height: 96px;
+}
+.cart-header-bottom-container {
+  width: 100%;
+  box-shadow: 0 1px 2px 0 rgb(185, 185, 185);
+}
+.cart-header-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 56px;
+}
+.hepsi-logo-container img {
+  max-width: 200px;
+  padding: 0 20px 0 27px;
+}
+.cart-search-bar {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  margin: 0 20px;
+}
+.cart-search-bar input {
+  width: 98%;
+  padding-left: 50px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  background-color: #eeeeee;
+}
+.cart-search-bar i {
+  position: absolute;
+  left: 16px;
+  font-size: 20px;
+}
+.cart-categories-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-width: 128px;
+  width: 100%;
+  height: 48px;
+  justify-content: center;
+}
+.cart-orders {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 115px;
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  justify-content: space-between;
+}
+.cart-categories-container i,
+.cart-orders i {
+  font-size: 24px;
+}
+.cart-categories-container span,
+.cart-orders span {
+  margin-left: 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.cart-user {
+  max-width: 131px;
+  width: 100%;
+  height: 48px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 26px;
+}
+.cart-user a {
+  background-color: rgba(228, 228, 228, 0.486);
+  border-radius: 100%;
+  max-width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-weight: 600;
+}
+.sepetim-text {
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 12px;
+}
+.product-count {
+  font-size: 18px;
+  color: rgb(146, 146, 146);
+}
+.clear-cart-button {
+  border: none;
+  color: orangered;
+  background-color: transparent;
+  margin-right: 26px;
+  font-weight: bold;
+  font-size: 14px;
+}
